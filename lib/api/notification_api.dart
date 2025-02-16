@@ -79,8 +79,8 @@ class NotificationApi {
   void moveOtherScreen(
     RemoteMessage message,
   ) {
-    print(message);
-    notificationId = int.parse(message.data['id']);
-    Get.to(LoginScreen());
+    // print(message);
+    // notificationId = int.parse(message.data['id']);
+    // Get.to(LoginScreen());
   }
 }
